@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href ="../../Curriculo HTML/imagens/curriculo.ico">
+    <title>Currículo - formulário</title>
+</head>
+<body>
+    <div class="top">
+        <h1>Curriculum Vitae</h1>
+    </div>
+    <div>
+        <hr>
+        <h3>Preencha com seus dados abaixo</h3>       
+    </div>
+    <div>
+        <label for="nome">Nome Completo:</label>
+        <input type="text" name="nome" id="nome" placeholder="Nome completo" required>
+        <label for="email">E-Mail:</label>
+        <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required>
+    </div>
+    <div>
+        <label for="endereco">Endereço:</label>
+        <input type="text" placeholder="Rua, Nº, Bairro, Cidade" required>
+
+        <label for="endereco">Fone:</label>
+        <input type="tel" placeholder="(00)0 0000-0000" required>
+    </div>
+    <hr>
+    <div>
+        <h2>Selecione o seu objetivo abaixo:</h2>
+        <select name="objetivo" id="objetivo" required>
+            <option value="">Objetivo</option>
+            <option value="1">Programador</option>
+            <option value="2">Designer</option>
+            <option value="3">Financeiro</option>
+            <option value="4">Contabilidade</option>
+        </select>
+    </div>
+    <div>  
+        <h2>Faça uma breve apresentação sua:</h2>
+        <textarea name="apresentacao" id="apresentacao" cols="80" rows="10" required></textarea>
+    </div>
+    <div>
+        <h1>Formações</h1>
+        <select name="nivel1" id="nivel1" required>
+            <option value="">Nível</option>
+            <option value="1">Fundamental</option>
+            <option value="2">Médio</option>
+            <option value="3">Superior</option>
+        </select>
+
+        <input type="text" placeholder="Instituição" name="instituicao1" id="instituicao1">
+
+        <label for="data1">Data de formação:</label>
+        <input type="date" name="data1" id="data1" placeholder="Ano de formação">
+
+        <select name="completo1" id="completo1" required>
+            <option value="">Situação</option>
+            <option value="1">Completo</option>
+            <option value="2">Incompleto</option>
+        </select>
+        <br>
+        <br>
+        <select name="nivel2" id="nivel2" required>
+            <option value="">Nível</option>
+            <option value="1">Fundamental</option>
+            <option value="2">Médio</option>
+            <option value="3">Superior</option>
+        </select>
+
+        <input type="text" placeholder="Instituição" name="instituicao2" id="instituicao2">
+
+        <label for="data2">Data de formação:</label>
+        <input type="date" name="data2" id="data2" placeholder="Ano de formação">
+
+        <select name="completo2" id="completo2" required>
+            <option value="">Situação</option>
+            <option value="1">Completo</option>
+            <option value="2">Incompleto</option>
+        </select>
+        <br>
+        <br>
+        <select name="nivel3" id="nivel3" required>
+            <option value="">Nível</option>
+            <option value="1">Fundamental</option>
+            <option value="2">Médio</option>
+            <option value="3">Superior</option>
+        </select>
+
+        <input type="text" placeholder="Instituição" name="instituicao3" id="instituicao3">
+
+        <label for="data3">Data de formação:</label>
+        <input type="date" name="data3" id="data3" placeholder="Ano de formação">
+
+        <select name="completo3" id="completo3" required>
+            <option value="">Situação</option>
+            <option value="1">Completo</option>
+            <option value="2">Incompleto</option>
+        </select>
+    </div>
+
+    <div>
+        <h1>Experiências profissionais</h1>
+        <label for="empresa1">Nome da empresa:</label>
+        <input type="text" id="empresa1" name="empresa1" placeholder="Exemplo LTDA">
+        
+        <label for="funcao1">Função</label>
+        <input type="text" id="funcao1" nome="funcao1" placeholder="Auxiliar de exemplo">
+        <br>
+        <label for="dataentrada1">Selecione a data de <b>entrada</b></label>
+        <input type="date" name="dataentrada1" id="dataentrada1">
+
+        <label for="dataesaida1">Selecione a data de <b>saída</b></label>
+        <input type="date" name="dataesaida1" id="dataesaida1">
+    </div>
+    <div>
+        <br>
+        <label for="empresa2">Nome da empresa:</label>
+        <input type="text" id="empresa2" name="empresa2" placeholder="Exemplo LTDA">
+        
+        <label for="funcao2">Função</label>
+        <input type="text" id="funcao2" nome="funcao2" placeholder="Auxiliar de exemplo">
+        <br>
+        <label for="dataentrada2">Selecione a data de <b>entrada</b></label>
+        <input type="date" name="dataentrada2" id="dataentrada2">
+
+        <label for="dataesaida2">Selecione a data de <b>saída</b></label>
+        <input type="date" name="dataesaida2" id="dataesaida2">
+    </div>
+    <div>
+        <br>
+        <label for="empresa3">Nome da empresa:</label>
+        <input type="text" id="empresa3" name="empresa3" placeholder="Exemplo LTDA">
+        
+        <label for="funcao3">Função</label>
+        <input type="text" id="funcao3" nome="funcao3" placeholder="Auxiliar de exemplo">
+        <br>
+        <label for="dataentrada3">Selecione a data de <b>entrada</b></label>
+        <input type="date" name="dataentrada3" id="dataentrada3">
+
+        <label for="dataesaida3">Selecione a data de <b>saída</b></label>
+        <input type="date" name="dataesaida3" id="dataesaida3">
+    </div>
+    <div>
+        <h1>Cursos</h1>
+        <label for="curso1">Curso realizado: </label>
+        <input type="text" name="curso1" id="curso1" placeholder="Desenvolvimento em HTML">
+
+        <input type="text" name="instituicaocurso1" id="instituicaocurso1" placeholder="Instituição">
+        <br>
+        <label for="datainiciocurso1">Data de início do curso:</label>
+        <input type="date" name="datainiciocurso1" id="datainiciocurso1">
+
+        <label for="datafinalcurso1">Data de finalização do curso:</label>
+        <input type="date" name="datafinalcurso1" id="datafinalcurso1">
+    </div>
+    <div>
+        <br>
+        <label for="curso2">Curso realizado: </label>
+        <input type="text" name="curso2" id="curso2" placeholder="Desenvolvimento em HTML">
+
+        <input type="text" name="instituicaocurso2" id="instituicaocurso2" placeholder="Instituição">
+        <br>
+        <label for="datainiciocurso2">Data de início do curso:</label>
+        <input type="date" name="datainiciocurso2" id="datainiciocurso2">
+
+        <label for="datafinalcurso2">Data de finalização do curso:</label>
+        <input type="date" name="datafinalcurso2" id="datafinalcurso2">
+    </div>
+    <div>
+        <br>
+        <label for="curso3">Curso realizado: </label>
+        <input type="text" name="curso3" id="curso3" placeholder="Desenvolvimento em HTML">
+
+        <input type="text" name="instituicaocurso3" id="instituicaocurso3" placeholder="Instituição">
+        <br>
+        <label for="datainiciocurso3">Data de início do curso:</label>
+        <input type="date" name="datainiciocurso3" id="datainiciocurso3">
+
+        <label for="datafinalcurso3">Data de finalização do curso:</label>
+        <input type="date" name="datafinalcurso3" id="datafinalcurso3">
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div>
+        <h3>Faça o upload do seu currículo:</h3>
+        <input type="file" name="cv_aqruivo" id="cv_aqruivo">
+        <hr>
+        <div>
+            <h2>Dicas de como preencher o seu currículo</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rTuiQMTryl0?si=b2MklHXTKjWodR3l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+    </div>
+</body>
+</html>
